@@ -4,6 +4,7 @@ import ReusableForm from './ReusableForm';
 
 function UpdateGameForm(props) {
   const { game } = props;
+
   function handleUpdateGameFormSubmission(event) {
     event.preventDefault();
     props.onEditGame({
@@ -26,8 +27,6 @@ function UpdateGameForm(props) {
     </React.Fragment>
   );
 }
-
-
 
 UpdateGameForm.propTypes = {
     onEditGame: PropTypes.func,

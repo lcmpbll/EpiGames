@@ -19,8 +19,8 @@ function GameCarousel(props) {
   return (
     <div style={slideStyles}>
       <Carousel>
-        {props.gameList
-          .filter((game) => game.featured)
+        {Object.values(props.gameList)
+          // .filter((game) => game.featured)
           .map((game) => (
             <Carousel.Item key={game.id}>
               <img

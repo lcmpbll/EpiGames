@@ -29,7 +29,7 @@ function MainGameList(props) {
     <React.Fragment>
       <div style={mainGameListStyles} className='d-flex justify-content-center'>
         <div className='row'>
-          {props.gameList.map((game, index) => (
+          {Object.values(props.gameList).map((game, index) => (
             <div className='card' style={cardStyles} key={index}>
               <div className='col'>
                 <Game 
@@ -51,7 +51,7 @@ function MainGameList(props) {
 }
 
 MainGameList.propTypes = {
-  mainGameList: PropTypes.array,
+  mainGameList: PropTypes.object,
   onGameSelection: PropTypes.func
 };
 

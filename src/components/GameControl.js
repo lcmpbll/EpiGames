@@ -141,7 +141,7 @@ class GameControl extends React.Component {
   };
 
   handleChangingSelectedGame = (id) => {
-    const selectedGame = this.state.mainGameList.filter(game => game.id === id)[0];
+    const selectedGame = this.props.mainGameList[id];
     this.setState({selectedGame: selectedGame});
   };
 
