@@ -35,7 +35,6 @@ class GameControl extends React.Component {
       //   },
       //   {
       //     title: 'Preist Mouse',
-      //     img: 'https://cdn.discordapp.com/attachments/819377569715191818/1017197039433564200/Screenshot_20220606-084236.png',
       //     rating: 4.1,
       //     price: 2,
       //     featured: false,

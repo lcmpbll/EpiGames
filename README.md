@@ -4,6 +4,7 @@
 
 #### _A game store_
 
+![Epigames in action.](EpiGamesApp.png)
 ## Technologies Used
 
 * _HTML_
