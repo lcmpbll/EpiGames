@@ -14,7 +14,7 @@
 
 ## Description
 
-A simple game store, updated to use hooks. A user has full crud functionality and can add new games, edit games, an delete the games available in the store.
+_A simple game store, updated to use hooks. A user has full crud functionality and can add new games, edit games, an delete the games available in the store._
 
 ## Setup/Installation Requirements
 _Requires console application such as Git Bash, Terminal, or PowerShell_
